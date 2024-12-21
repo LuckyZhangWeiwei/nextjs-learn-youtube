@@ -6,3 +6,4 @@ route groups
       内容需要定期更新 → ISR
       内容需要实时动态更新 → SSR
       需要高度动态交互 → CSR
+59:30 generateMetadata
