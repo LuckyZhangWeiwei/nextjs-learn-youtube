@@ -5,6 +5,7 @@ function GlobalError({ error }: { error: Error & { digest?: string } }) {
     <html>
       <body>
         <h2>global error</h2>
+        <p>{error.message}</p>
       </body>
     </html>
   );
