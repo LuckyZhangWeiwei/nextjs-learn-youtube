@@ -11,3 +11,9 @@ route groups
 
 http://localhost:3000/studio
 http://localhost:3000/
+
+
+sanity 生成自己的typescript 类
+npx sanity@latest schema extract --path=./sanity/extract.json
+在根目录增加sanity-typegen.json 文件
+npx sanity@latest typegen generate
