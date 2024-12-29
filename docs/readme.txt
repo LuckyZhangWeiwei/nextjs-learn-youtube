@@ -8,3 +8,6 @@ route groups
       需要高度动态交互 → CSR
       PPR
 59:30 generateMetadata
+
+http://localhost:3000/studio
+http://localhost:3000/
