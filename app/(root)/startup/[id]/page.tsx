@@ -4,8 +4,11 @@ import { client } from "@/sanity/lib/client";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import markdownit from "markdown-it";
 
 export const experimental_ppr = true;
+
+const md = markdownit();
 
 async function page({ params }: { params: Promise<{ id: string }> }) {
   const id = (await params).id;
@@ -13,6 +16,8 @@ async function page({ params }: { params: Promise<{ id: string }> }) {
   const post = await client.fetch(STARTUP_BY_ID_QUERY, { id });
 
   if (!post) return notFound();
+
+  const parsedContent = md.render(post?.pitch || "");
 
   return (
     <>
@@ -47,7 +52,14 @@ async function page({ params }: { params: Promise<{ id: string }> }) {
                 </p>
               </div>
             </Link>
+            <p className="category-tag">{post.category}</p>
           </div>
+          <h3 className="text-30-bold">Pitch Details</h3>
+          {parsedContent ? (
+            <article dangerouslySetInnerHTML={{ __html: parsedContent }} />
+          ) : (
+            <p className="no-result">No Details provided</p>
+          )}
         </div>
       </section>
     </>

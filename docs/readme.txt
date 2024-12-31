@@ -17,3 +17,7 @@ sanity 生成自己的typescript 类
 npx sanity@latest schema extract --path=./sanity/extract.json
 在根目录增加sanity-typegen.json 文件
 npx sanity@latest typegen generate
+
+
+npm install markdown-it --save --legacy-peer-deps
+npm i --save-dev @types/markdown-it --legacy-peer-deps
