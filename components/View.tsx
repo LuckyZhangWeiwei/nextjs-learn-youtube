@@ -3,7 +3,7 @@ import Ping from "@/components/Ping";
 import { client } from "@/sanity/lib/client";
 import { STARTUP_VIEWS_QUERY } from "@/lib/queries";
 import { writeClient } from "@/sanity/lib/write-client";
-import { after } from "next/server";
+import { unstable_after as after } from "next/server";
 
 async function View({ id }: { id: string }) {
   const { views: totalViews } = await client
