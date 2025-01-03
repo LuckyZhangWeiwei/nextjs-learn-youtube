@@ -21,3 +21,5 @@ npx sanity@latest typegen generate
 
 npm install markdown-it --save --legacy-peer-deps
 npm i --save-dev @types/markdown-it --legacy-peer-deps
+
+Record<string, string>
