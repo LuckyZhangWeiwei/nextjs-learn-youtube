@@ -23,3 +23,7 @@ npm install markdown-it --save --legacy-peer-deps
 npm i --save-dev @types/markdown-it --legacy-peer-deps
 
 Record<string, string>
+
+const { title, description, category, link } = Object.fromEntries(
+      Array.from(form).filter(([key]) => key !== "pitch")
+);
