@@ -35,3 +35,6 @@ https://utc-r7.sentry.io/issues/
 SENTRY_AUTH_TOKEN=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
 
 http://localhost:3000/sentry-example-page
+
+
+https://www.youtube.com/watch?v=Zq5fmkH0T78&t=17779s

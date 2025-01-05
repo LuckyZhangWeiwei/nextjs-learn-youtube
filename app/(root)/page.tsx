@@ -29,7 +29,7 @@ async function Home({
       </section>
       <section className="section_container">
         <p className="text-30-semibold">
-          {query ? `Search results fro "${query}"` : "All Startups"}
+          {query ? `Search results for "${query}"` : "All Startups"}
         </p>
         <ul className="mt-7 card_grid">
           {posts.length > 0 ? (
