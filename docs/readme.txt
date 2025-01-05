@@ -38,3 +38,6 @@ http://localhost:3000/sentry-example-page
 
 
 https://www.youtube.com/watch?v=Zq5fmkH0T78&t=17779s
+
+https://nextjs-learn-youtube-uha8-1th5gfb0a-luckyzhangweiweis-projects.vercel.app/
+https://nextjs-learn-youtube-uha8-1th5gfb0a-luckyzhangweiweis-projects.vercel.app/studio/structure
