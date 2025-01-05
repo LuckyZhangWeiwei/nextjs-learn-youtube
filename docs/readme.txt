@@ -41,3 +41,10 @@ https://www.youtube.com/watch?v=Zq5fmkH0T78&t=17779s
 
 https://nextjs-learn-youtube-uha8-1th5gfb0a-luckyzhangweiweis-projects.vercel.app/
 https://nextjs-learn-youtube-uha8-1th5gfb0a-luckyzhangweiweis-projects.vercel.app/studio/structure
+
+
+sanity cqrs setting
+https://www.sanity.io/manage/personal/project/fktc3twr/api#cors-origins
+
+github cqrs setting
+https://github.com/settings/applications/2819281
